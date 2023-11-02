@@ -15,12 +15,12 @@ find_package(Qt6 COMPONENTS
 qt_standard_project_setup()
 
 add_executable(Notepad 
-        Source/main.cpp
-        Source/Front.cpp
-        Source/Front.h
-        Source/Back.cpp
-        Source/Back.h
-        Source/header.h
+        main.cpp
+        Front.cpp
+        Front.h
+        Back.cpp
+        Back.h
+        header.h
 )
 
 target_link_libraries(Notepad
